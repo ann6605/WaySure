@@ -1,6 +1,4 @@
-# WaySure🌐
-
-     **🚦 Smart Public Transport Route Safety System 🚦**
+# WaySure🌐: Smart Public Transport Route Safety System
 
      🌍 Because the fastest route isn’t always the safest.
 
