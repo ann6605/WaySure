@@ -14,26 +14,26 @@
 
 **🚀 Key Features:**
 
-    **->**✨ Multi-Route Comparison:
+    ->✨ Multi-Route Comparison:
                Compare different routes between two locations instantly.
-    **->**🛡️ Safety Score Calculation:
+    ->🛡️ Safety Score Calculation:
                Generated using contextual factors like:
                   🌙 Time of day
                   💡 Lighting conditions
                   🛣️ Road type (main road / isolated road / market area)
                   ⭐ Simulated user feedback
-    **->**👥 Crowd Level Indicator:
+    ->👥 Crowd Level Indicator:
                Displays estimated crowd density for safer decision-making.
-    **->**🗺️ Embedded Google Maps Integration:
+    ->🗺️ Embedded Google Maps Integration:
                Selected route is visualized for real-time navigation and traffic view.
 
 **🧠 How It Works:**
 
-    **1.**User enters source & destination 📍
-    **2.**System fetches available routes
-    **3.**Safety & crowd intelligence layer evaluates each route
-    **4.**Routes displayed as interactive cards 🗂️
-    **5.**User selects preferred route → Visualized on map 🗺️
+    1.User enters source & destination 📍
+    2.System fetches available routes
+    3.Safety & crowd intelligence layer evaluates each route
+    4.Routes displayed as interactive cards 🗂️
+    5.User selects preferred route → Visualized on map 🗺️
     
 
 **🏗️ Tech Stack:**
