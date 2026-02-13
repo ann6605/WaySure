@@ -2,7 +2,7 @@
 
 **🚦 Smart Public Transport Route Safety System 🚦**
 
-   🌍 Because the fastest route isn’t always the safest.
+     🌍 Because the fastest route isn’t always the safest.
 
 **💡 About The Project:**
    Urban navigation apps usually prioritize speed ⏱️ — but safety matters just as much, especially for women and vulnerable commuters.
