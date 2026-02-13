@@ -45,7 +45,8 @@
 
 **🎯 Problem Statement:**
 
-    Current navigation systems optimize for speed, not safety. WaySure introduces a Safety Intelligence Layer on top of existing map services to make commuting smarter and safer.
+    Current navigation systems optimize for speed, not safety. 
+    WaySure introduces a Safety Intelligence Layer on top of existing map services to make commuting smarter and safer.
 
 **🌟 Vision:**
 
