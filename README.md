@@ -4,7 +4,7 @@
 
 **💡 About The Project:**
 
-        Urban navigation apps usually prioritize speed ⏱️ — but safety matters just as much, especially for women and vulnerable commuters.
+        Urban navigation apps usually prioritize speed, but safety matters just as much, especially for women and vulnerable commuters.
         WaySure is a smart web-based platform that helps users compare multiple travel routes based on:
             🛣️ Distance
             ⏱️ Travel Time
