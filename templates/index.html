@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WaySure - Smart Transport Safety</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>🛡️ WaySure</h1>
+            <p class="tagline">Your Smart Transport Safety Companion</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Search Box -->
+
+
+
+
+         <h2>Check Route Safety</h2>
+            <p>Enter your destination to see the safest routes</p>
+            
+            <input type="text" id="searchInput" placeholder="Search by route number, location, or area (e.g., '45B' or 'Tech Park')" />
+            <button onclick="searchRoutes()" class="btn-primary">🔍 Search Routes</button>
+        </div>
+
+        <!-- Loading Spinner -->
+        <div id="loading" style="display: none;">
+            <div class="spinner"></div>
+            <p>Calculating safety scores...</p>
+        </div>
+
+        <!-- Results Container -->
+        <div id="results"></div>
+
+        <!-- Quick Actions -->
+        <div class="quick-actions">
+            <button onclick="showReportForm()" class="btn-secondary">
+                📝 Report Incident
+            </button>
+            <button onclick="showStats()" class="btn-secondary">
+                📊 View Statistics
+            </button>
+        </div>
+
+        <!-- Statistics Section -->
+        <div id="statsSection" style="display: none;"></div>
+    </main>
+
+    <!-- Panic Button (Always Visible) -->
+    <button class="panic-btn" onclick="triggerPanic()" title="Emergency Alert">
+        🆘
+    </button>
+
+    <!-- Footer -->
+    <footer>
+        <p>WaySure| Making Public Transport Safer Together</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

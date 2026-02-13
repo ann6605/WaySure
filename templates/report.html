@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Incident - WaySure</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🛡️ WaySure</h1>
+            <p class="tagline">Report Safety Incident</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="report-form">
+            <h2>📝 Report an Incident</h2>
+            <p>Help keep others safe by reporting safety concerns</p>
+
+            <form id="incidentForm">
+                <div class="form-group">
+                    <label>Route Number *</label>
+                    <input type="text" id="routeNumber" placeholder="e.g., 45B" required />
+                </div>
+
+                <div class="form-group">
+                    <label>Incident Type *</label>
+                    <select id="incidentType" required>
+                        <option value="">Select incident type</option>
+                        <option value="theft">Theft / Robbery</option>
+                        <option value="harassment">Harassment</option>
+                        <option value="accident">Accident</option>
+                        <option value="overcrowding">Overcrowding</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Severity *</label>
+                    <select id="severity" required>
+                        <option value="">Select severity</option>
+                        <option value="low">Low - Minor inconvenience</option>
+                        <option value="medium">Medium - Concerning</option>
+                        <option value="high">High - Serious incident</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Description (Optional)</label>
+                    <textarea id="description" rows="4" placeholder="Provide additional details..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>📍 Location</label>
+                    <button type="button" onclick="getLocation()" class="btn-secondary">
+                        Use Current Location
+                    </button>
+                    <p id="locationStatus" style="margin-top: 10px; font-size: 14px;"></p>
+                </div>
+
+                <button type="submit" class="btn-primary">Submit Report</button>
+                <button type="button" onclick="goHome()" class="btn-secondary">Cancel</button>
+            </form>
+
+            <div id="successMessage" style="display: none;">
+                <h3>✅ Report Submitted Successfully!</h3>
+                <p>Thank you for helping keep our community safe.</p>
+                <button onclick="goHome()" class="btn-primary">Back to Home</button>
+            </div>
+        </div>
+    </main>
+
+    <button class="panic-btn" onclick="triggerPanic()">🆘</button>
+
+    <script src="{{ url_for('static', filename='js/report.js') }}"></script>
+</body>
+</html>
